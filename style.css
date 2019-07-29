@@ -1,0 +1,589 @@
+/* SHARED CLASSES */
+*{
+    text-decoration:none;
+}
+
+
+body{
+    background-color:white;
+}
+
+header{
+    width:100%;
+    height:130px;
+    background-color:lightgray;
+}
+
+.dvlogo{
+    max-width:10%;
+    height:90%;
+    float:right;
+    margin-top:8px;
+    margin-right:10px;
+}
+
+.pageTitle{
+    font-family: 'Oswald', sans-serif;
+    font-size:38px;
+    font-weight:900;
+    color:darkslategray;
+    display: block;
+    margin: 0 auto;
+    text-align:center;
+    padding: 5px 10px;
+}
+
+.pageTitle:hover{
+    color:white;
+}
+header nav ul{
+    display:block;
+    margin:42px 0px 0px 0px;
+    width:auto;
+    float:left;
+}
+
+header nav ul li{
+    display: inline-block;
+    float:left;
+    list-style:none;
+    padding: 0 30px;
+}
+
+header nav ul li a{
+    font-family: 'Squada One', cursive;
+    font-size:28px;
+    text-decoration: none;
+    color:darkslategray;
+    line-height: 60px;
+}
+
+header nav ul li a:hover{
+    color:whitesmoke;
+}
+
+.footer{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:20px;
+    text-align:center;
+    color:royalblue;
+    background-color:lightsteelblue;
+    margin:15px auto;
+    padding:15px;
+    line-height:40px;
+    border:15px;
+    outline:15px;
+}
+
+
+/* FRONT PAGE */
+.index-banner{
+    width:95%100%;
+    height:calc(100 - 100px);
+    background-image:url("http://shoppopgallery.com/wp-content/uploads/2019/06/500-stunning-desktop-background-pictures-hq-download-free-various-good-quality-backgrounds-special-4.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    display:table;
+}
+
+.index-banner h2{
+    font-family:'Squada One', cursive;
+    font-size:40px;
+    font-weight:900;
+    line-height:70px;
+    color:white;
+    padding:0px 20px;
+    text-align:center;
+    text-shadow:2px 2px 8px #111;
+}
+
+.index-banner h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:21px;
+    font-weight:100;
+    font-style:italic;
+    line-height:40px;
+    color:white;
+    padding:0px 20px;
+    text-align:center;
+    text-shadow:2px 2px 8px #111;   
+}
+
+.index-boxlink{
+    margin:20px 20px 0;
+    width: calc(100% - 40px);
+    height: 100px;
+    background-color:#F2F2F2;
+    
+}
+
+.index-boxlink:hover{
+    background-color:white;
+}
+
+.index-links{
+    padding-top:10px;
+    background-color:lightgray;
+}
+
+.index-links div h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:30px;
+    font-weight:600;
+    line-height:100px;
+    color:steelblue;
+    text-align:center;
+    text-transform:uppercase;   
+}
+
+.index-links div h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:20px;
+    font-weight:300;
+    line-height:25px;
+    color:darkslategrey;
+    text-align:center;
+    text-transform:uppercase;
+    margin:30px;
+}
+
+
+/* GAME DESIGN AND WEB DESIGN*/
+
+/*---GAME DESIGN---*/
+.game-resources p{
+    font-family: 'Raleway', sans-serif;
+    font-size:25px;
+    text-align:center;
+}
+
+.game-resources img{
+    width:100%;
+    height:auto;
+}
+
+.section-header{
+    background-color: beige;
+    padding:20px;
+}
+
+.section-header h1{
+    font-family: 'Darker Grotesque', sans-serif;
+    text-align:center;
+    font-size:60px;    
+}
+
+.codecademy{
+    background-color: #DAE85B;
+    padding:20px;
+    border: 15px solid #008B8B;
+    margin:10px auto;
+}
+
+.unity{
+    background-color: #F0F8FF;
+    padding:20px;
+    border: 15px solid #000000;
+    margin:20px auto;
+}
+
+.brackeys{
+    background-color: #E13C3C;
+    padding:20px;
+    border: 15px solid #5E003F;
+    margin:10px auto;
+}
+
+.ludum{
+    background-color: #A0522D;
+    padding:20px;
+    border: 15px solid #8B0000;
+    margin:10px auto;
+}
+
+/*---WEB DESIGN---*/
+.web-editors{
+    margin:30px auto;
+    background-color: cadetblue;
+    padding:20px;
+    border: 15px solid seagreen;
+}
+
+.web-editors p{
+    font-family: 'Raleway', sans-serif;
+    font-size:25px;
+    text-align:center;
+}
+
+.web-editors a img{
+    margin:0 auto;
+    width:100%;
+    height:auto;
+}
+
+.web-editors h2{
+    font-size:25px;
+    margin:30px;
+    text-align: center;
+}
+
+.mmtuts{
+    margin:30px auto;
+    background-color: darkgray;
+    padding:20px;
+    border: 15px solid midnightblue;
+}
+
+.mmtuts p{
+    font-family: 'Raleway', sans-serif;
+    font-size:25px;
+    text-align:center;
+}
+
+.mmtuts-pic{
+    width:100%;
+    height:auto;
+}
+
+.mmtuts-links{
+    padding:30px;
+}
+
+.mmtuts iframe{
+    margin: 20px 45px;
+    height:300px;
+}
+
+
+/* TRAINING */
+video{
+    pointer-events: none;
+    margin:0 auto;
+    width:100%;
+    height:auto;
+}
+
+.training-header{
+    padding:10px;
+    border: 10px solid seagreen;   
+    background-color: darkgray;
+    margin:20px;
+}
+
+.training-header h1{
+    font-family: 'Darker Grotesque', sans-serif;
+    text-align: center;
+    font-size:50px;
+    margin:20px auto;
+    width:60%;
+    padding:20px;
+    background-color:beige;
+}
+
+.container{
+    position:relative;
+    width:1350px;
+    height:400px;
+    margin:25px auto;
+    background:white;
+}
+
+.box{
+    position:relative;
+    width:calc(450px - 30px);
+    height:calc(400px - 30px);
+    background:lightgray;
+    float:left;
+    margin:15px;
+    box-sizing:border-box;
+    overflow:hidden;
+    border: 10px solid seagreen;
+    border-radius:10px; 
+}
+
+.box h2{
+    font-family: 'Merriweather', serif;
+    font-size:20px;
+    text-align:center;
+    width:80%;
+    margin:20px auto;
+    
+}
+
+.box img{
+    display:block;
+    margin:0 auto;
+    margin-top:auto;
+    margin-bottom:auto;
+    width:55%;
+}
+
+.box:hover img{
+    opacity:.5;
+}
+
+.container-2{
+    position:relative;
+    width:900px;
+    height:400px;
+    margin:25px auto;
+    background:white;
+}
+
+#warning{
+    padding:0px;
+    margin:0px;
+    background-color:orange;
+    border:5px solid red;
+}
+
+#warning h2{
+    font-family: 'Merriweather', serif;
+    font-size:20px;
+    background-color:yellow;
+    width:90%;
+}
+
+.phone-container .phone-box{
+    padding:10px;
+    border: 10px solid black;   
+    background-color: white;
+    margin:20px;
+}
+
+.phone-box h2{
+    font-family: 'Merriweather', serif;
+    font-size:20px;
+    text-align: center;
+    margin:20px auto;
+    width:80%;
+    padding:20px;
+    background-color:lightgreen;
+}
+
+/* EVENTS */
+.calendar-heading{
+    background-color:lightblue;
+    border: 10px solid gray;
+    padding:10px;
+    margin: 0 auto;
+    width:80%;
+}
+
+.calendar-date{
+    font-family: 'Unna', serif;
+    text-align:center;
+    font-size:32px;
+}
+
+.calendar-description{
+    text-align:center;
+    margin:0 auto;
+    width:90%;
+    border:10px solid white;
+    border-left-color: lightblue;
+    border-right-color: lightblue;
+    background-color:darkgray;
+}
+
+.calendar-description a{
+    color:inherit;
+}
+
+.event-title{
+    font-family: 'Fugaz One', cursive;
+    font-size:35px;
+    margin:20px auto;
+    text-decoration: underline;
+    text-shadow:3px 2px black;
+    color:floralwhite;
+}
+
+.event-title:hover{
+    color:gold;
+}
+.event-description{
+    font-family: 'Slabo 27px', serif;
+    font-size:25px;
+    color:darkblue;
+    text-decoration:none;
+    margin: 10px auto;
+    width:80%;
+    padding:10px;
+    line-height:30px;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 999px){
+    .dvlogo{
+        display:none;
+    }
+    
+    header nav{
+        display:none;
+    }
+    
+    .unitytuts{
+        display:none;
+    }
+    
+    .brackeys-vids{
+        display:none;
+    }
+    
+    .ludumweb{
+        display:none;
+    }
+    
+    .mmtuts-links{
+        display:none;
+    }
+    
+    video{
+        display:none;
+    }
+    
+    .container{
+        display:none;
+    }
+    
+    .container-2{
+        display:none;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    
+    /*SHARED CLASSES */
+    header{
+        height:150px;
+    }
+    
+    .pageTitle{
+        margin: 50px 0px;
+        text-align:left;
+        line-height: 40px;
+        padding: 0px 30px 0px 40px;
+        border-right: 5px solid rgb(3,1,10);
+        float:left;
+    }
+    
+    .index-banner{
+    background-size:95% 200%;
+    padding:75px;
+        
+    }
+    
+    .index-banner h2{
+    font-size:80px;
+    font-weight:300;
+    line-height:125px;
+    }
+    
+    .index-banner h1{
+    font-size:30px;
+    line-height:50px;
+    }
+    
+    /* GAME AND WEB DESIGN */
+    #box-section{
+        width:85%;
+    }
+    
+    #text-style{
+        display:table-cell;
+        width:50%;
+        padding:10px;
+        vertical-align: middle;
+    }
+    
+    #picture-style{
+        margin: 20px 20px  auto;
+        display:table-cell;
+        height:300px;
+        text-align:center;
+        width:400px;
+        vertical-align: middle;
+        padding:15px;
+    }
+    
+    .codecademy p{
+        display:flex;
+        font-size:42px;
+        text-align:center;
+    }
+        
+    .unity p{
+        display:flex;
+        font-size:45px;
+        text-align:center;
+    }
+    
+    .unity img{
+        width:65%;
+    }
+    
+    .brackeys-text p{
+        margin:25px;
+        font-size:30px;
+    }
+    
+    .brackeys-container{
+        margin: 0 auto;
+        width:90%
+    }
+    
+    .brackeys-pics img{
+        display:block;
+        width:100%;    
+    }
+    
+    .brackeys-vids{
+        margin: 20px 20px  auto;
+        display:table-cell;
+        height:300px;
+        text-align:center;
+        width:1000px;
+        vertical-align: middle;
+        padding:10px;
+    }
+    
+    .brackeys-vids iframe{
+        display:table-cell;
+        width:100%;
+    }
+    
+    .ludum p{
+        margin:25px;
+        font-size:30px;
+    }
+    
+    .ludum-link{
+        display:none;
+    }
+    
+    .web-editors a img{
+        margin:0 auto;
+        display:block;
+        width:25%;
+        height:auto;
+    }
+    
+    .mmtuts-pic{
+        display:none;
+    }
+    
+    /* TRAINING */
+    video{
+        height:500px;
+    }
+    
+    .phone-container{
+        display:none;
+    }
+    
+    .event-description{
+        line-height:70px;
+    }
+}
