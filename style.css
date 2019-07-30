@@ -364,6 +364,11 @@ video{
     background-color:lightgreen;
 }
 
+.phone-box img{
+    margin:0 0 20px 0;
+    width:100%;
+}
+
 /* EVENTS */
 .calendar-heading{
     background-color:lightblue;
