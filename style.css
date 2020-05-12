@@ -80,7 +80,7 @@ header nav ul li a:hover{
 .index-banner{
     width:95%100%;
     height:calc(100 - 100px);
-    background-image:url("background.jpg");
+    background-image:url("images/background.jpg");
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover;
