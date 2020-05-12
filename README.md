@@ -6,4 +6,4 @@ This is my first major project, so I hope you enjoy!
 
 Thank you so much!
 
-allenlin8.github.io/clubwebsite
+[allenlin8.github.io/clubwebsite](allenlin8.github.io/clubwebsite)
